@@ -1,18 +1,18 @@
 /* Universal styles */
 
+html,
 body {
-  margin: 0;
-  padding: 0;
   font-size: 18px;
   line-height: 1.4;
-
-}
-.container {
   box-sizing: border-box;
-  width: 960px;
 }
 
-/* Header and Navigation */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Company Header and Navigation */
 
 header {
   background-color: cadetblue;
