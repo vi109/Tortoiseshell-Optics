@@ -1,24 +1,32 @@
 /* Universal styles */
 
-html,
-body {
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   font-size: 18px;
   line-height: 1.4;
-  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
-.container {
+.main {
   max-width: 960px;
   margin: 0 auto;
 }
 
+span {
+  color: white;
+}
+
 /* Company Header and Navigation */
 
-header {
+.container {
   background-color: cadetblue;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  top: 1rem;
 }
 
 .logo {
@@ -26,11 +34,48 @@ header {
   align-items: center;
 }
 
+.logo img {
+  height: 1.5rem;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
 a {
   text-decoration: none;
-  padding: 1rem;
+  color: white;
+  margin-right: 2rem;
 }
 
 .menu {
   display: none;
 }
+
+/* Banner */
+
+header {
+  background-image: url(../images/glasses-bg.png);
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin: 0;
+
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10rem;
+  left: 12.5rem;
+}
+
+/* Services */
