@@ -128,13 +128,31 @@ h1 {
 }
 
 section {
-  width: 40%;
+  width: 35%;
+  margin-left: 5%;
 }
 
 .info {
   display: flex;
-  justify-content: space-between;
-  margin-right: 5%;
+  margin-bottom: 5rem;
+  margin-top: 0;
 }
 
 /* Footer */
+
+footer {
+  background-color: azure;
+  height: 9.5rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-left: 4rem;
+}
+
+footer span {
+  color: black;
+  padding-left: 1rem;
+}
