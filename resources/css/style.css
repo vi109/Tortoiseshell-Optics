@@ -128,12 +128,13 @@ h1 {
 }
 
 section {
-  width: 35%;
-  margin: 0 5%;
+  width: 40%;
 }
 
 .info {
   display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
 }
 
 /* Footer */
