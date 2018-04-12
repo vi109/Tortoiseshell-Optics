@@ -80,3 +80,35 @@ h1 {
 }
 
 /* Services */
+
+.exams img {
+  width: 3.5rem;
+}
+
+.fittings img,
+.delivery img {
+  width: 5rem;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.exams,
+.fittings,
+.delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 3rem;
+  height: 8rem;
+}
+
+.byline {
+  text-align: center;
+}
+
+/* Philosophy and Appointments */
