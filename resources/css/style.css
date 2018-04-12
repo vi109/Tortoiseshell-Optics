@@ -112,3 +112,28 @@ h1 {
 }
 
 /* Philosophy and Appointments */
+
+.info span {
+  background-color: cadetblue;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+}
+
+.philosophy span {
+  padding-right: 2.5rem;
+}
+
+.info p {
+  margin-top: 1rem;
+}
+
+section {
+  width: 35%;
+  margin: 0 5%;
+}
+
+.info {
+  display: flex;
+}
+
+/* Footer */
