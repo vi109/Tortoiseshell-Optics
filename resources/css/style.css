@@ -158,7 +158,7 @@ footer span {
 
 /* Responsive Tablet (portrait) */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .container {
     position: inherit;
   }
