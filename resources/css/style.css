@@ -72,10 +72,9 @@ h1 {
 
 .banner {
   display: flex;
-  justify-content: center;
-  position: relative;
-  top: 10rem;
-  left: 12.5rem;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10rem;
 }
 
 /* Services */
@@ -161,17 +160,22 @@ footer span {
 @media only screen and (max-width: 1024px) {
   .container {
     position: inherit;
+
   }
   .main {
-    max-width: 100%;
+    width: 100%;
   }
+
   header {
     height: 22rem;
+    display: flex;
+    flex-direction: column;
   }
+
   .banner {
-      top: 5rem;
-      left: 8rem;
+    margin-top: 5rem;
   }
+
   h1 {
     font-size: 1.33rem;
     padding: 1.3rem 3rem;
